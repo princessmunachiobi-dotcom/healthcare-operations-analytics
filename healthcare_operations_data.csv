@@ -1,0 +1,751 @@
+encounter_id,encounter_date,department,encounter_type,patient_age,wait_time_minutes,length_of_stay_hours,readmitted_30_days,patient_satisfaction_score,discharge_status,sla_met,estimated_cost_usd
+ENC100381,2025-01-02,Emergency,Inpatient,18,36,67.8,No,4.8,Home Health,Yes,23030.89
+ENC100465,2025-01-03,Orthopedics,Emergency,67,30,11.6,No,3.0,Home Health,Yes,4897.24
+ENC100707,2025-01-03,Surgery,Observation,60,61,36.0,Yes,4.1,Home Health,No,1087.46
+ENC100575,2025-01-03,Cardiology,Outpatient,87,29,8.9,No,3.4,Home,Yes,2214.15
+ENC100104,2025-01-03,Neurology,Observation,43,29,40.7,Yes,3.8,Skilled Nursing Facility,Yes,1077.12
+ENC100303,2025-01-04,Orthopedics,Emergency,73,58,0.5,No,2.6,Home,No,1694.23
+ENC100410,2025-01-06,Surgery,Emergency,20,11,5.8,No,2.7,Home,Yes,4081.18
+ENC100478,2025-01-07,General Medicine,Outpatient,62,48,0.8,No,5.0,Home,No,1469.97
+ENC100415,2025-01-07,Neurology,Inpatient,69,5,87.7,No,3.9,Skilled Nursing Facility,Yes,13787.48
+ENC100300,2025-01-08,Neurology,Inpatient,50,63,112.3,No,4.5,Home,No,15950.61
+ENC100540,2025-01-08,Surgery,Observation,40,66,43.2,No,4.0,Skilled Nursing Facility,No,2098.97
+ENC100233,2025-01-08,Emergency,Inpatient,66,36,8.1,No,3.4,Home Health,Yes,4643.82
+ENC100369,2025-01-09,Emergency,Outpatient,32,20,12.0,No,4.9,Home Health,Yes,2160.35
+ENC100170,2025-01-09,Emergency,Inpatient,62,72,87.0,No,2.4,Home,No,10061.69
+ENC100272,2025-01-09,Emergency,Inpatient,21,47,20.5,No,4.2,Home,No,12832.13
+ENC100429,2025-01-10,Neurology,Inpatient,51,22,57.4,Yes,3.6,Transferred,Yes,3677.98
+ENC100454,2025-01-10,Surgery,Observation,27,21,18.2,No,4.7,Against Medical Advice,Yes,1478.53
+ENC100138,2025-01-12,Emergency,Inpatient,30,73,32.6,No,5.0,Home,No,13321.11
+ENC100385,2025-01-12,Orthopedics,Outpatient,89,47,2.8,No,2.7,Transferred,No,1157.74
+ENC100147,2025-01-13,Cardiology,Inpatient,56,34,27.0,No,4.5,Home,Yes,13444.19
+ENC100663,2025-01-13,Orthopedics,Outpatient,42,22,4.2,No,2.4,Home Health,Yes,1324.7
+ENC100117,2025-01-14,General Medicine,Inpatient,55,32,66.6,No,3.3,Home,Yes,5952.57
+ENC100328,2025-01-14,Emergency,Outpatient,61,49,0.9,No,4.4,Home,No,2775.57
+ENC100250,2025-01-16,Surgery,Observation,55,54,36.6,No,4.1,Home,No,1869.27
+ENC100056,2025-01-16,Surgery,Outpatient,79,14,1.9,No,3.6,Home Health,Yes,3346.96
+ENC100562,2025-01-16,Surgery,Inpatient,79,6,43.4,No,3.5,Against Medical Advice,Yes,11878.19
+ENC100397,2025-01-17,Neurology,Inpatient,47,63,35.4,No,4.7,Home,No,19207.06
+ENC100352,2025-01-17,Cardiology,Inpatient,89,36,49.5,No,4.0,Home,Yes,13156.17
+ENC100574,2025-01-18,Surgery,Observation,37,35,66.1,No,4.8,Against Medical Advice,Yes,250.0
+ENC100584,2025-01-19,Orthopedics,Observation,82,59,89.3,No,3.5,Home,No,666.05
+ENC100699,2025-01-19,Surgery,Outpatient,57,21,1.2,No,4.2,Home,Yes,3232.91
+ENC100546,2025-01-20,Emergency,Inpatient,89,79,50.8,Yes,4.1,Home,No,17756.7
+ENC100542,2025-01-21,Emergency,Outpatient,84,69,3.5,No,4.6,Home,No,1361.27
+ENC100150,2025-01-22,Emergency,Emergency,84,71,2.4,No,3.6,Transferred,No,3277.42
+ENC100619,2025-01-23,Emergency,Observation,84,71,60.2,No,5.0,Home,No,1749.72
+ENC100036,2025-01-24,General Medicine,Emergency,57,17,6.5,No,4.5,Skilled Nursing Facility,Yes,2957.54
+ENC100279,2025-01-24,Emergency,Inpatient,67,71,52.9,No,3.6,Home,No,15778.35
+ENC100518,2025-01-25,Cardiology,Inpatient,84,41,28.0,No,5.0,Home,Yes,16115.13
+ENC100045,2025-01-25,Surgery,Emergency,82,48,4.1,No,3.2,Home,No,6628.96
+ENC100387,2025-01-25,Emergency,Emergency,88,58,0.9,No,3.8,Home,No,1915.43
+ENC100659,2025-01-27,Surgery,Emergency,36,31,4.4,No,3.3,Home Health,Yes,9063.54
+ENC100069,2025-01-28,Emergency,Observation,63,19,26.0,No,4.8,Home,Yes,688.35
+ENC100217,2025-01-29,Orthopedics,Outpatient,74,23,12.6,No,3.3,Home,Yes,1936.04
+ENC100127,2025-01-29,Surgery,Emergency,68,5,2.9,No,3.9,Home,Yes,4941.38
+ENC100439,2025-01-30,Neurology,Observation,21,51,46.2,No,3.2,Home,No,3413.15
+ENC100431,2025-01-31,Emergency,Outpatient,65,58,1.8,Yes,4.6,Home,No,789.89
+ENC100678,2025-01-31,Cardiology,Emergency,52,27,1.8,No,5.0,Home,Yes,659.59
+ENC100280,2025-01-31,General Medicine,Emergency,47,32,2.5,No,3.7,Home,Yes,3286.31
+ENC100246,2025-01-31,General Medicine,Emergency,42,90,8.9,No,4.4,Home,No,866.5
+ENC100007,2025-02-01,Surgery,Inpatient,63,29,57.5,Yes,3.6,Against Medical Advice,Yes,16657.41
+ENC100196,2025-02-01,Cardiology,Inpatient,70,15,74.1,No,3.3,Home,Yes,22767.61
+ENC100172,2025-02-02,Orthopedics,Emergency,62,33,1.0,No,3.2,Home,Yes,5852.55
+ENC100001,2025-02-02,Emergency,Outpatient,59,45,1.3,No,4.8,Home,Yes,2502.4
+ENC100728,2025-02-02,General Medicine,Inpatient,44,44,46.6,No,4.0,Home,Yes,22543.85
+ENC100695,2025-02-02,Orthopedics,Outpatient,71,25,3.7,No,2.7,Home,Yes,1725.73
+ENC100359,2025-02-03,Cardiology,Emergency,54,67,5.3,No,5.0,Skilled Nursing Facility,No,5333.61
+ENC100133,2025-02-03,General Medicine,Outpatient,59,43,5.8,No,4.6,Home,Yes,767.47
+ENC100033,2025-02-03,General Medicine,Emergency,25,12,5.2,No,3.9,Transferred,Yes,4197.51
+ENC100376,2025-02-04,Cardiology,Outpatient,54,46,3.3,No,3.8,Home,No,1621.85
+ENC100581,2025-02-04,Surgery,Observation,31,68,66.4,No,5.0,Home,No,1504.98
+ENC100674,2025-02-04,General Medicine,Outpatient,50,5,2.7,Yes,5.0,Home,Yes,1868.2
+ENC100243,2025-02-04,Cardiology,Emergency,28,19,3.8,No,3.4,Home,Yes,3505.41
+ENC100010,2025-02-04,Cardiology,Observation,58,29,135.9,No,4.6,Home,Yes,2437.93
+ENC100700,2025-02-04,General Medicine,Outpatient,82,54,3.9,No,3.9,Home,No,537.31
+ENC100218,2025-02-05,Cardiology,Inpatient,35,25,45.9,No,4.6,Home,Yes,12858.53
+ENC100087,2025-02-05,Emergency,Outpatient,32,70,2.3,No,4.4,Against Medical Advice,No,1045.91
+ENC100588,2025-02-06,Emergency,Observation,41,55,73.5,No,4.4,Home Health,No,1871.41
+ENC100258,2025-02-07,Emergency,Inpatient,64,44,18.8,No,3.6,Skilled Nursing Facility,Yes,20875.03
+ENC100580,2025-02-07,Surgery,Inpatient,81,18,105.4,No,4.1,Home,Yes,12718.62
+ENC100171,2025-02-08,Orthopedics,Inpatient,85,16,23.7,No,3.8,Home,Yes,11160.58
+ENC100516,2025-02-08,Cardiology,Outpatient,89,39,1.4,No,3.8,Home,Yes,2605.11
+ENC100583,2025-02-08,Orthopedics,Inpatient,79,48,27.9,No,4.8,Home,No,21710.16
+ENC100460,2025-02-08,General Medicine,Outpatient,61,47,6.1,Yes,3.4,Home Health,No,252.42
+ENC100310,2025-02-09,Neurology,Emergency,60,32,2.7,No,3.3,Home,Yes,7446.24
+ENC100322,2025-02-09,General Medicine,Observation,74,74,33.6,No,3.1,Against Medical Advice,No,1583.36
+ENC100480,2025-02-09,Emergency,Emergency,19,65,4.1,No,3.7,Home,No,4525.57
+ENC100120,2025-02-11,General Medicine,Inpatient,69,33,18.1,No,4.0,Home,Yes,15214.81
+ENC100501,2025-02-11,Surgery,Outpatient,48,55,1.4,No,4.2,Home,No,1896.99
+ENC100538,2025-02-12,Surgery,Outpatient,76,33,3.8,No,4.9,Transferred,Yes,1707.88
+ENC100365,2025-02-12,Orthopedics,Inpatient,38,61,132.5,No,3.7,Home,No,14294.72
+ENC100726,2025-02-12,Emergency,Emergency,41,74,3.2,No,3.8,Home,No,4754.57
+ENC100497,2025-02-13,Emergency,Inpatient,37,66,54.0,No,5.0,Home,No,19341.69
+ENC100313,2025-02-13,Surgery,Inpatient,63,42,59.5,No,4.2,Home,Yes,18588.74
+ENC100198,2025-02-13,Orthopedics,Emergency,44,34,1.0,Yes,4.1,Home,Yes,4530.65
+ENC100724,2025-02-13,General Medicine,Inpatient,27,25,22.8,No,3.6,Skilled Nursing Facility,Yes,19414.98
+ENC100386,2025-02-14,General Medicine,Emergency,87,58,1.4,No,5.0,Home,No,3890.2
+ENC100418,2025-02-14,Cardiology,Inpatient,31,57,59.9,No,2.6,Home Health,No,20568.99
+ENC100436,2025-02-15,Emergency,Observation,59,80,46.2,No,3.7,Home,No,1921.6
+ENC100018,2025-02-16,Neurology,Outpatient,71,36,4.4,No,3.7,Home Health,Yes,1918.57
+ENC100157,2025-02-16,General Medicine,Inpatient,69,41,22.5,No,4.3,Skilled Nursing Facility,Yes,20616.08
+ENC100221,2025-02-16,Cardiology,Outpatient,52,5,6.4,No,4.1,Home,Yes,2373.44
+ENC100705,2025-02-17,Cardiology,Inpatient,62,30,23.7,No,3.8,Home,Yes,16649.69
+ENC100074,2025-02-17,Emergency,Inpatient,30,74,31.2,No,4.0,Home,No,8449.94
+ENC100434,2025-02-17,Orthopedics,Outpatient,79,38,6.6,No,3.0,Home Health,Yes,3174.65
+ENC100443,2025-02-18,Neurology,Emergency,71,19,5.5,No,4.9,Home,Yes,4335.02
+ENC100670,2025-02-18,Emergency,Observation,25,67,36.9,No,3.8,Transferred,No,2814.3
+ENC100414,2025-02-18,General Medicine,Outpatient,32,30,4.8,No,4.7,Skilled Nursing Facility,Yes,677.22
+ENC100604,2025-02-19,Neurology,Emergency,47,18,2.4,No,4.9,Home,Yes,7531.95
+ENC100721,2025-02-20,Orthopedics,Outpatient,46,24,3.8,No,3.2,Home,Yes,702.2
+ENC100682,2025-02-20,Surgery,Emergency,24,56,13.3,No,3.4,Home,No,5410.97
+ENC100118,2025-02-21,General Medicine,Inpatient,76,46,18.0,Yes,4.8,Home Health,No,15889.83
+ENC100462,2025-02-21,General Medicine,Inpatient,69,24,48.5,No,3.2,Home,Yes,8434.82
+ENC100241,2025-02-21,General Medicine,Inpatient,72,39,60.1,No,3.4,Home,Yes,13329.39
+ENC100620,2025-02-21,Surgery,Outpatient,55,55,3.4,No,3.9,Home,No,513.96
+ENC100306,2025-02-21,Emergency,Observation,45,74,67.2,No,4.4,Home,No,1393.83
+ENC100329,2025-02-21,Surgery,Observation,35,60,75.8,No,3.4,Skilled Nursing Facility,No,1648.59
+ENC100100,2025-02-21,Cardiology,Emergency,34,32,1.1,No,3.3,Home,Yes,6766.43
+ENC100408,2025-02-22,Orthopedics,Outpatient,39,34,3.1,No,4.4,Skilled Nursing Facility,Yes,1628.14
+ENC100528,2025-02-22,Emergency,Emergency,73,53,1.4,No,4.5,Home,No,3613.51
+ENC100256,2025-02-22,Surgery,Inpatient,86,40,41.6,No,5.0,Home Health,Yes,18737.76
+ENC100522,2025-02-23,Cardiology,Inpatient,56,64,39.6,Yes,4.1,Transferred,No,250.0
+ENC100457,2025-02-24,Neurology,Inpatient,83,43,37.0,Yes,3.1,Home,Yes,16709.62
+ENC100182,2025-02-25,Cardiology,Outpatient,23,54,2.3,No,4.0,Home,No,4558.26
+ENC100273,2025-02-25,Orthopedics,Observation,57,45,40.2,No,3.2,Home,Yes,318.61
+ENC100390,2025-02-25,Surgery,Observation,54,50,101.4,No,4.6,Against Medical Advice,No,3678.94
+ENC100357,2025-02-25,Emergency,Emergency,25,14,9.5,No,4.2,Home,Yes,6395.77
+ENC100533,2025-02-26,Emergency,Outpatient,30,91,5.6,Yes,3.8,Home,No,1614.86
+ENC100536,2025-02-26,General Medicine,Emergency,73,30,3.5,No,3.5,Home,Yes,1863.31
+ENC100058,2025-02-26,General Medicine,Emergency,29,43,4.4,No,3.4,Home,Yes,5917.6
+ENC100750,2025-02-27,Orthopedics,Observation,42,61,23.8,Yes,3.7,Home,No,1169.43
+ENC100287,2025-02-28,Surgery,Observation,67,40,29.6,Yes,4.2,Home,Yes,415.95
+ENC100178,2025-02-28,Emergency,Outpatient,29,42,5.1,No,4.1,Home,Yes,610.79
+ENC100083,2025-02-28,Orthopedics,Inpatient,76,60,73.5,No,3.2,Home,No,17669.07
+ENC100623,2025-03-02,Emergency,Inpatient,34,70,24.1,No,3.5,Skilled Nursing Facility,No,16891.33
+ENC100467,2025-03-02,General Medicine,Emergency,53,30,10.4,No,4.1,Home,Yes,3560.16
+ENC100350,2025-03-02,Emergency,Inpatient,42,66,16.4,Yes,3.1,Home,No,18277.11
+ENC100187,2025-03-02,Cardiology,Observation,55,6,74.7,No,3.9,Home Health,Yes,1487.62
+ENC100168,2025-03-02,General Medicine,Outpatient,79,30,3.9,No,4.9,Transferred,Yes,448.76
+ENC100532,2025-03-02,Orthopedics,Emergency,82,12,2.0,Yes,3.7,Home,Yes,7832.6
+ENC100041,2025-03-02,Cardiology,Outpatient,26,63,3.5,No,3.9,Home,No,1120.34
+ENC100703,2025-03-03,Orthopedics,Inpatient,52,58,42.4,No,3.7,Home,No,13656.99
+ENC100685,2025-03-03,General Medicine,Emergency,60,38,5.5,No,4.0,Transferred,Yes,3537.44
+ENC100704,2025-03-04,Neurology,Observation,68,27,50.7,No,3.8,Home,Yes,1361.89
+ENC100262,2025-03-04,General Medicine,Outpatient,81,12,1.9,No,3.3,Home Health,Yes,496.45
+ENC100411,2025-03-05,Cardiology,Inpatient,47,5,80.6,No,4.0,Home Health,Yes,21967.78
+ENC100259,2025-03-05,Cardiology,Observation,31,5,63.9,No,3.9,Home,Yes,2768.56
+ENC100544,2025-03-05,Cardiology,Emergency,24,5,5.4,No,4.6,Home,Yes,3492.66
+ENC100230,2025-03-06,Surgery,Observation,28,74,38.0,No,3.4,Home,No,1360.83
+ENC100661,2025-03-06,General Medicine,Outpatient,26,9,1.6,No,3.5,Home,Yes,1477.92
+ENC100392,2025-03-07,Emergency,Emergency,79,99,5.1,No,4.7,Home,No,4487.49
+ENC100349,2025-03-07,Surgery,Inpatient,75,5,31.4,Yes,3.1,Home,Yes,17020.3
+ENC100251,2025-03-07,Orthopedics,Emergency,40,27,5.5,No,4.1,Home,Yes,6149.73
+ENC100469,2025-03-08,Orthopedics,Inpatient,55,38,94.3,No,3.8,Home,Yes,11745.37
+ENC100635,2025-03-08,Orthopedics,Observation,45,48,93.1,No,4.0,Transferred,No,250.0
+ENC100023,2025-03-08,Cardiology,Outpatient,55,40,2.6,No,4.5,Home,Yes,1102.89
+ENC100564,2025-03-08,Surgery,Outpatient,25,56,9.5,Yes,4.1,Home,No,3276.82
+ENC100253,2025-03-10,Emergency,Observation,20,67,130.6,No,4.5,Home,No,1686.38
+ENC100072,2025-03-11,Surgery,Emergency,18,16,3.7,No,3.0,Home,Yes,6007.59
+ENC100523,2025-03-12,Emergency,Outpatient,85,21,6.2,No,4.0,Home,Yes,1375.66
+ENC100052,2025-03-13,Emergency,Inpatient,59,54,45.8,No,5.0,Home,No,11028.95
+ENC100398,2025-03-13,Neurology,Observation,79,44,29.0,Yes,2.9,Transferred,Yes,3185.69
+ENC100543,2025-03-13,Emergency,Emergency,53,39,5.9,No,4.7,Home,Yes,2591.13
+ENC100102,2025-03-14,Orthopedics,Inpatient,21,20,44.2,No,5.0,Home,Yes,12235.82
+ENC100426,2025-03-14,General Medicine,Emergency,43,35,1.4,No,4.7,Home,Yes,250.0
+ENC100664,2025-03-15,Orthopedics,Outpatient,69,99,14.2,No,3.4,Home,No,1413.24
+ENC100224,2025-03-15,Surgery,Inpatient,36,29,26.0,No,3.9,Home,Yes,11605.94
+ENC100653,2025-03-15,Cardiology,Inpatient,46,65,40.6,No,3.5,Home,No,21162.29
+ENC100009,2025-03-15,Orthopedics,Outpatient,23,50,3.2,No,3.8,Home,No,2464.09
+ENC100339,2025-03-15,Surgery,Inpatient,88,50,86.0,No,3.9,Home,No,15568.39
+ENC100735,2025-03-18,Emergency,Emergency,51,41,2.9,No,3.6,Skilled Nursing Facility,Yes,6364.48
+ENC100142,2025-03-20,Cardiology,Emergency,84,34,4.1,No,5.0,Home,Yes,7374.05
+ENC100363,2025-03-23,Cardiology,Inpatient,28,65,65.2,No,4.2,Home,No,12894.04
+ENC100032,2025-03-24,Cardiology,Emergency,34,16,1.3,No,5.0,Home,Yes,5442.61
+ENC100078,2025-03-24,General Medicine,Outpatient,57,76,2.6,No,4.5,Home,No,1060.37
+ENC100567,2025-03-25,General Medicine,Observation,88,5,50.3,No,3.6,Home,Yes,694.64
+ENC100412,2025-03-25,General Medicine,Outpatient,46,54,0.8,Yes,4.4,Home Health,No,1817.97
+ENC100486,2025-03-26,General Medicine,Emergency,20,41,4.0,Yes,4.7,Against Medical Advice,Yes,4652.18
+ENC100626,2025-03-26,Emergency,Outpatient,60,54,1.4,No,4.1,Skilled Nursing Facility,No,2369.56
+ENC100326,2025-03-26,Cardiology,Outpatient,19,52,0.8,Yes,3.3,Home,No,2733.42
+ENC100637,2025-03-27,Neurology,Emergency,36,49,6.7,No,3.5,Home,No,4618.89
+ENC100148,2025-03-27,Emergency,Inpatient,19,42,56.0,No,3.8,Home,Yes,23111.84
+ENC100327,2025-03-28,Cardiology,Outpatient,88,37,4.2,No,3.4,Home,Yes,2933.8
+ENC100566,2025-03-28,Cardiology,Outpatient,37,24,1.7,No,4.0,Home,Yes,1653.0
+ENC100719,2025-03-28,Cardiology,Observation,81,18,63.4,No,3.4,Home,Yes,1031.19
+ENC100510,2025-03-28,Emergency,Observation,19,54,32.0,Yes,4.2,Home Health,No,2490.62
+ENC100384,2025-03-29,Emergency,Emergency,54,63,1.1,No,4.8,Against Medical Advice,No,2463.63
+ENC100593,2025-03-29,Emergency,Outpatient,51,40,3.4,No,3.5,Home,Yes,1975.78
+ENC100189,2025-03-29,Neurology,Emergency,70,60,3.3,No,3.9,Home,No,3690.41
+ENC100097,2025-03-29,Orthopedics,Emergency,73,89,1.3,No,4.1,Home,No,5526.08
+ENC100119,2025-03-31,Cardiology,Emergency,33,83,5.0,No,3.6,Home,No,3532.5
+ENC100315,2025-03-31,Neurology,Observation,72,40,11.0,No,3.3,Home,Yes,1095.91
+ENC100508,2025-04-01,Surgery,Outpatient,24,5,7.9,No,4.6,Home,Yes,2718.07
+ENC100568,2025-04-02,Emergency,Emergency,47,91,3.0,No,4.2,Home,No,4672.25
+ENC100483,2025-04-02,Surgery,Emergency,61,58,0.5,No,3.2,Home,No,2981.75
+ENC100617,2025-04-02,General Medicine,Emergency,29,9,4.2,No,3.4,Home,Yes,4760.92
+ENC100696,2025-04-03,Surgery,Observation,47,14,52.6,No,4.1,Home,Yes,562.05
+ENC100346,2025-04-04,Orthopedics,Observation,57,28,99.0,No,4.0,Home,Yes,3035.78
+ENC100380,2025-04-06,General Medicine,Outpatient,48,65,6.4,No,3.6,Home,No,1308.7
+ENC100211,2025-04-06,Neurology,Outpatient,86,20,0.8,No,3.2,Home,Yes,2247.82
+ENC100209,2025-04-07,Orthopedics,Observation,25,5,48.9,No,3.7,Home,Yes,1292.37
+ENC100292,2025-04-08,General Medicine,Inpatient,64,24,110.1,No,4.6,Home,Yes,19178.37
+ENC100206,2025-04-08,Orthopedics,Outpatient,85,5,6.2,No,4.1,Home,Yes,1784.97
+ENC100618,2025-04-08,General Medicine,Emergency,28,54,1.9,No,3.7,Against Medical Advice,No,2296.8
+ENC100744,2025-04-09,Cardiology,Inpatient,36,32,65.3,No,5.0,Home,Yes,11481.66
+ENC100509,2025-04-09,Orthopedics,Outpatient,61,44,2.8,No,4.5,Home Health,Yes,2484.25
+ENC100216,2025-04-10,Surgery,Emergency,79,65,1.5,No,4.0,Home,No,3988.37
+ENC100281,2025-04-11,Cardiology,Inpatient,57,74,65.9,No,4.0,Home,No,14201.81
+ENC100505,2025-04-11,Neurology,Inpatient,42,42,31.8,No,3.8,Home,Yes,11989.84
+ENC100143,2025-04-11,General Medicine,Observation,49,5,78.4,No,3.8,Home Health,Yes,2009.59
+ENC100039,2025-04-12,Surgery,Emergency,88,20,5.8,No,3.9,Skilled Nursing Facility,Yes,2411.73
+ENC100111,2025-04-12,Orthopedics,Emergency,57,55,3.5,No,5.0,Home,No,6336.37
+ENC100413,2025-04-12,Cardiology,Outpatient,58,26,4.9,No,4.2,Home,Yes,1052.8
+ENC100399,2025-04-13,General Medicine,Outpatient,80,5,11.9,Yes,5.0,Home,Yes,2253.88
+ENC100314,2025-04-13,General Medicine,Observation,55,54,46.7,No,5.0,Skilled Nursing Facility,No,4015.33
+ENC100152,2025-04-13,Surgery,Emergency,86,50,5.9,No,3.8,Home,No,3864.54
+ENC100573,2025-04-14,General Medicine,Outpatient,51,33,1.6,No,3.9,Home,Yes,1818.23
+ENC100534,2025-04-14,Cardiology,Inpatient,49,29,107.4,No,3.4,Home Health,Yes,12704.24
+ENC100299,2025-04-14,General Medicine,Inpatient,42,27,40.6,No,3.9,Home,Yes,22548.03
+ENC100450,2025-04-15,General Medicine,Emergency,35,86,7.1,No,4.3,Home,No,3010.94
+ENC100096,2025-04-16,Orthopedics,Emergency,52,57,5.8,No,4.5,Home,No,2225.28
+ENC100481,2025-04-16,Orthopedics,Inpatient,23,63,160.2,No,5.0,Against Medical Advice,No,8441.37
+ENC100495,2025-04-16,Emergency,Emergency,43,84,2.9,No,4.9,Home,No,4894.01
+ENC100660,2025-04-16,Orthopedics,Emergency,41,20,7.1,Yes,4.0,Skilled Nursing Facility,Yes,3361.79
+ENC100342,2025-04-17,Neurology,Inpatient,21,46,69.0,No,4.4,Home,No,21524.93
+ENC100154,2025-04-18,General Medicine,Outpatient,18,42,3.1,No,3.8,Home,Yes,1818.02
+ENC100271,2025-04-18,General Medicine,Emergency,27,29,7.2,No,3.6,Home Health,Yes,7189.73
+ENC100638,2025-04-19,Orthopedics,Emergency,22,43,3.8,No,4.3,Home,Yes,1424.07
+ENC100419,2025-04-19,Emergency,Emergency,54,41,2.0,Yes,4.5,Home,Yes,2363.41
+ENC100263,2025-04-20,General Medicine,Inpatient,67,35,87.9,No,5.0,Home,Yes,15104.71
+ENC100442,2025-04-20,Surgery,Emergency,42,36,0.5,No,4.3,Skilled Nursing Facility,Yes,715.28
+ENC100353,2025-04-20,Emergency,Observation,31,47,55.9,No,3.2,Transferred,No,1743.14
+ENC100136,2025-04-21,Emergency,Emergency,47,58,4.5,No,3.6,Home,No,5439.33
+ENC100307,2025-04-21,Emergency,Outpatient,78,86,4.5,No,5.0,Home,No,1651.07
+ENC100190,2025-04-21,General Medicine,Emergency,54,37,3.8,Yes,2.4,Home,Yes,7573.44
+ENC100226,2025-04-22,Orthopedics,Outpatient,67,61,4.0,No,3.9,Home,No,717.01
+ENC100239,2025-04-23,Surgery,Emergency,47,58,7.5,No,4.2,Home,No,3375.53
+ENC100333,2025-04-24,General Medicine,Inpatient,73,43,35.6,No,3.8,Home,Yes,15617.6
+ENC100400,2025-04-24,Emergency,Outpatient,46,77,2.8,No,3.7,Skilled Nursing Facility,No,3727.14
+ENC100526,2025-04-24,Orthopedics,Emergency,73,31,5.9,No,4.3,Home Health,Yes,5032.23
+ENC100088,2025-04-25,Surgery,Outpatient,61,84,11.6,No,4.3,Home,No,1878.31
+ENC100447,2025-04-25,Neurology,Outpatient,57,71,4.9,No,4.0,Home,No,650.22
+ENC100748,2025-04-25,General Medicine,Observation,45,46,24.9,No,3.9,Home,No,1622.32
+ENC100749,2025-04-25,Emergency,Observation,35,71,8.4,No,2.9,Home,No,2300.43
+ENC100368,2025-04-26,General Medicine,Outpatient,27,47,2.3,No,5.0,Home,No,1626.07
+ENC100309,2025-04-26,Orthopedics,Emergency,32,56,3.4,No,5.0,Transferred,No,3643.23
+ENC100338,2025-04-26,General Medicine,Emergency,84,6,3.4,No,4.8,Home,Yes,4417.28
+ENC100403,2025-04-27,Emergency,Inpatient,83,54,31.7,No,4.8,Home,No,11840.26
+ENC100554,2025-04-27,Neurology,Observation,20,40,78.2,No,3.4,Home,Yes,1270.83
+ENC100525,2025-04-27,Orthopedics,Outpatient,20,26,3.4,Yes,3.8,Home,Yes,1835.36
+ENC100607,2025-04-28,General Medicine,Emergency,87,73,0.8,No,4.5,Home,No,562.67
+ENC100595,2025-04-28,Emergency,Outpatient,44,78,5.4,No,3.5,Home,No,2276.9
+ENC100167,2025-04-28,Neurology,Outpatient,22,60,0.8,No,4.3,Home,No,1194.85
+ENC100321,2025-04-28,Orthopedics,Outpatient,24,34,6.0,No,5.0,Transferred,Yes,1721.44
+ENC100066,2025-04-29,General Medicine,Inpatient,23,54,22.2,Yes,3.2,Home,No,21479.2
+ENC100646,2025-04-30,Surgery,Outpatient,54,17,3.7,No,4.0,Home,Yes,1448.68
+ENC100632,2025-04-30,Surgery,Emergency,26,58,4.0,No,4.8,Home,No,5908.09
+ENC100077,2025-05-01,Surgery,Outpatient,42,12,9.1,No,4.5,Against Medical Advice,Yes,3009.67
+ENC100254,2025-05-01,Neurology,Outpatient,50,21,2.9,No,3.7,Home,Yes,1762.83
+ENC100294,2025-05-02,Cardiology,Observation,25,23,63.2,No,5.0,Home,Yes,2507.94
+ENC100487,2025-05-02,General Medicine,Outpatient,86,5,0.7,No,4.0,Home,Yes,2276.82
+ENC100738,2025-05-02,Neurology,Observation,36,66,90.6,No,4.1,Home,No,1297.0
+ENC100371,2025-05-03,Orthopedics,Outpatient,70,83,0.6,No,3.9,Home,No,1067.52
+ENC100169,2025-05-03,Surgery,Inpatient,22,20,84.2,Yes,2.8,Home,Yes,19598.23
+ENC100627,2025-05-04,Orthopedics,Emergency,40,75,9.1,Yes,3.1,Home,No,3164.61
+ENC100199,2025-05-04,General Medicine,Outpatient,87,25,1.2,No,3.4,Home,Yes,251.27
+ENC100197,2025-05-06,General Medicine,Inpatient,19,29,74.9,Yes,3.8,Home Health,Yes,20708.53
+ENC100268,2025-05-07,Emergency,Emergency,28,82,6.6,No,3.5,Home,No,6196.11
+ENC100139,2025-05-07,Cardiology,Observation,28,59,46.2,No,3.9,Home,No,2045.07
+ENC100044,2025-05-10,Emergency,Outpatient,65,75,8.6,Yes,5.0,Transferred,No,250.0
+ENC100521,2025-05-11,Surgery,Inpatient,75,42,56.8,No,4.5,Home,Yes,17826.12
+ENC100194,2025-05-13,Cardiology,Outpatient,87,44,8.8,No,5.0,Skilled Nursing Facility,Yes,1456.26
+ENC100746,2025-05-13,General Medicine,Inpatient,63,43,77.5,No,3.5,Home Health,Yes,11320.67
+ENC100301,2025-05-13,Orthopedics,Inpatient,41,49,28.9,No,3.6,Home,No,18398.36
+ENC100053,2025-05-13,General Medicine,Inpatient,75,52,21.7,Yes,4.9,Home,No,15399.57
+ENC100201,2025-05-14,Orthopedics,Observation,45,29,61.4,No,5.0,Home,Yes,1173.69
+ENC100630,2025-05-14,Neurology,Inpatient,84,88,79.1,No,5.0,Transferred,No,6269.21
+ENC100063,2025-05-14,Orthopedics,Observation,66,41,27.0,No,5.0,Home Health,Yes,2120.36
+ENC100628,2025-05-15,Emergency,Observation,36,94,141.2,No,4.5,Home Health,No,1410.41
+ENC100393,2025-05-15,Emergency,Observation,29,65,71.7,No,4.4,Transferred,No,854.5
+ENC100332,2025-05-16,General Medicine,Emergency,38,49,1.5,No,3.3,Home,No,2812.79
+ENC100022,2025-05-16,General Medicine,Outpatient,41,23,1.3,No,5.0,Skilled Nursing Facility,Yes,2044.05
+ENC100068,2025-05-16,General Medicine,Observation,75,34,73.2,No,2.6,Against Medical Advice,Yes,2557.75
+ENC100498,2025-05-17,Surgery,Outpatient,31,41,6.7,No,4.7,Home,Yes,2548.87
+ENC100374,2025-05-17,General Medicine,Inpatient,37,42,18.7,No,5.0,Skilled Nursing Facility,Yes,14518.07
+ENC100576,2025-05-17,Neurology,Observation,46,91,66.6,No,3.7,Home,No,1945.27
+ENC100634,2025-05-19,General Medicine,Observation,58,18,49.5,No,3.5,Home,Yes,1135.15
+ENC100379,2025-05-19,Orthopedics,Inpatient,57,63,28.5,No,4.5,Home,No,14459.76
+ENC100188,2025-05-20,General Medicine,Outpatient,52,51,3.5,No,4.5,Home,No,2560.39
+ENC100614,2025-05-21,Cardiology,Inpatient,87,27,34.5,No,4.5,Home,Yes,21180.76
+ENC100094,2025-05-22,Emergency,Outpatient,39,47,6.0,No,4.0,Home,No,1354.2
+ENC100552,2025-05-24,Emergency,Outpatient,65,48,1.5,No,4.1,Home,No,2274.97
+ENC100440,2025-05-26,Emergency,Outpatient,82,44,3.3,No,4.1,Home,Yes,1918.27
+ENC100027,2025-05-27,Surgery,Observation,56,41,71.2,No,3.9,Home,Yes,783.97
+ENC100585,2025-05-28,Orthopedics,Inpatient,84,46,30.1,No,4.4,Home,No,16251.6
+ENC100687,2025-05-29,Neurology,Inpatient,65,48,25.2,No,4.5,Home,No,5292.66
+ENC100164,2025-05-29,Emergency,Inpatient,57,66,21.8,No,3.4,Home,No,17954.51
+ENC100163,2025-05-30,Emergency,Inpatient,31,49,37.7,No,4.0,Home,No,6725.68
+ENC100065,2025-05-30,Neurology,Outpatient,45,48,1.5,No,3.7,Home,No,1168.57
+ENC100373,2025-05-30,Orthopedics,Outpatient,88,67,3.2,No,4.0,Home,No,1970.75
+ENC100144,2025-05-30,Emergency,Inpatient,32,52,65.9,No,4.8,Home,No,18692.88
+ENC100496,2025-05-31,General Medicine,Emergency,38,57,5.5,No,4.2,Home,No,4079.39
+ENC100248,2025-06-01,Surgery,Inpatient,78,29,49.9,No,4.6,Home,Yes,10427.11
+ENC100572,2025-06-01,General Medicine,Emergency,50,50,4.5,No,4.7,Home,No,7508.92
+ENC100624,2025-06-02,Surgery,Inpatient,76,17,27.2,No,3.8,Home,Yes,15223.96
+ENC100732,2025-06-02,Emergency,Emergency,39,73,5.1,No,4.0,Home,No,5883.04
+ENC100165,2025-06-02,General Medicine,Outpatient,74,89,7.5,No,5.0,Home,No,2004.64
+ENC100425,2025-06-02,General Medicine,Inpatient,46,27,68.6,No,4.0,Home,Yes,9182.18
+ENC100275,2025-06-02,Emergency,Inpatient,50,38,84.0,No,4.2,Home,Yes,20128.75
+ENC100464,2025-06-02,Orthopedics,Inpatient,69,9,19.4,No,4.2,Home,Yes,7134.65
+ENC100500,2025-06-05,General Medicine,Inpatient,45,21,46.4,No,4.3,Against Medical Advice,Yes,4406.22
+ENC100547,2025-06-06,General Medicine,Outpatient,50,59,4.7,No,3.8,Home,No,1452.8
+ENC100473,2025-06-07,General Medicine,Emergency,77,29,1.9,No,4.1,Home,Yes,5566.74
+ENC100238,2025-06-07,Surgery,Outpatient,23,44,4.3,No,3.5,Home,Yes,2011.13
+ENC100155,2025-06-08,Cardiology,Outpatient,80,14,2.9,No,4.1,Home,Yes,2323.68
+ENC100005,2025-06-08,General Medicine,Observation,20,60,53.6,Yes,2.3,Home,No,562.38
+ENC100621,2025-06-08,Orthopedics,Outpatient,58,7,2.6,Yes,3.6,Home,Yes,2185.73
+ENC100354,2025-06-08,Orthopedics,Inpatient,19,5,72.4,No,3.7,Home,Yes,25547.82
+ENC100407,2025-06-08,Surgery,Emergency,68,18,4.2,No,5.0,Home,Yes,3995.03
+ENC100091,2025-06-08,General Medicine,Inpatient,80,47,30.9,No,4.1,Home,No,13600.32
+ENC100633,2025-06-08,Cardiology,Observation,43,57,44.2,No,5.0,Home Health,No,3405.14
+ENC100435,2025-06-08,Surgery,Outpatient,22,61,9.0,No,4.6,Against Medical Advice,No,2153.54
+ENC100140,2025-06-09,Cardiology,Outpatient,77,55,2.0,No,4.3,Home,No,1215.44
+ENC100082,2025-06-09,Surgery,Outpatient,32,38,11.0,Yes,3.4,Home,Yes,250.0
+ENC100004,2025-06-10,Cardiology,Outpatient,37,50,2.7,No,5.0,Home Health,No,2659.06
+ENC100121,2025-06-10,Neurology,Emergency,21,46,4.4,No,3.3,Home,No,6868.12
+ENC100298,2025-06-10,Surgery,Inpatient,35,5,43.6,No,4.1,Transferred,Yes,21850.12
+ENC100030,2025-06-11,Surgery,Inpatient,50,44,86.4,No,3.4,Home,Yes,13937.64
+ENC100285,2025-06-11,Orthopedics,Outpatient,48,36,0.6,No,3.7,Against Medical Advice,Yes,1800.43
+ENC100186,2025-06-12,Emergency,Inpatient,79,44,39.4,Yes,4.1,Home Health,Yes,19254.14
+ENC100047,2025-06-12,Emergency,Outpatient,67,24,4.4,No,3.4,Home,Yes,2321.18
+ENC100689,2025-06-12,Neurology,Emergency,42,30,11.0,No,4.9,Home,Yes,5554.94
+ENC100267,2025-06-13,General Medicine,Outpatient,37,29,2.9,No,4.1,Home,Yes,1451.26
+ENC100219,2025-06-13,Neurology,Outpatient,60,50,0.9,No,3.5,Home Health,No,1872.97
+ENC100031,2025-06-14,Surgery,Emergency,22,48,9.4,Yes,5.0,Home,No,2096.7
+ENC100214,2025-06-14,Emergency,Observation,45,27,68.8,No,4.9,Home,Yes,2210.74
+ENC100020,2025-06-14,Emergency,Inpatient,42,26,111.3,Yes,3.8,Home,Yes,18385.16
+ENC100506,2025-06-15,Orthopedics,Inpatient,41,34,97.7,No,4.3,Transferred,Yes,13021.31
+ENC100205,2025-06-16,Cardiology,Emergency,60,21,3.2,No,5.0,Home,Yes,3395.61
+ENC100537,2025-06-16,Surgery,Outpatient,69,19,2.2,Yes,3.6,Home,Yes,1350.19
+ENC100222,2025-06-16,General Medicine,Inpatient,84,32,28.2,No,4.2,Home,Yes,14429.84
+ENC100335,2025-06-17,Orthopedics,Inpatient,54,35,78.0,No,3.9,Home,Yes,7419.35
+ENC100114,2025-06-17,Neurology,Emergency,61,39,1.8,No,5.0,Home,Yes,3057.1
+ENC100647,2025-06-18,General Medicine,Outpatient,39,27,0.6,Yes,4.1,Home,Yes,2305.45
+ENC100176,2025-06-18,Orthopedics,Emergency,59,5,0.7,No,3.4,Home Health,Yes,2567.07
+ENC100073,2025-06-18,Neurology,Outpatient,57,51,2.6,No,4.7,Home Health,No,250.0
+ENC100485,2025-06-18,Orthopedics,Inpatient,36,8,60.6,No,3.5,Against Medical Advice,Yes,13479.26
+ENC100612,2025-06-18,Cardiology,Observation,74,31,68.1,No,4.4,Home,Yes,2142.7
+ENC100231,2025-06-19,General Medicine,Emergency,50,8,5.2,No,4.1,Against Medical Advice,Yes,2346.29
+ENC100710,2025-06-20,Surgery,Emergency,65,49,5.3,No,4.4,Home,No,4394.79
+ENC100277,2025-06-20,Surgery,Emergency,33,5,0.7,No,5.0,Home,Yes,2295.53
+ENC100474,2025-06-20,Emergency,Outpatient,56,66,4.4,No,4.2,Home,No,1360.75
+ENC100054,2025-06-20,Emergency,Emergency,19,8,3.7,No,3.8,Home,Yes,3537.51
+ENC100124,2025-06-21,Cardiology,Observation,52,38,42.2,No,4.1,Skilled Nursing Facility,Yes,250.0
+ENC100367,2025-06-21,Emergency,Outpatient,19,60,5.6,No,4.1,Home,No,2579.23
+ENC100070,2025-06-21,Cardiology,Observation,82,29,82.5,No,4.0,Transferred,Yes,1604.12
+ENC100290,2025-06-22,Cardiology,Emergency,44,38,2.4,No,4.6,Home Health,Yes,7026.36
+ENC100109,2025-06-22,Cardiology,Outpatient,41,64,2.3,No,5.0,Home,No,2450.92
+ENC100709,2025-06-23,General Medicine,Emergency,26,14,6.7,No,3.8,Home,Yes,5705.16
+ENC100076,2025-06-23,Emergency,Outpatient,83,5,2.9,No,3.2,Home,Yes,1846.81
+ENC100519,2025-06-23,Emergency,Emergency,21,77,2.6,No,4.4,Transferred,No,3144.54
+ENC100622,2025-06-24,Neurology,Outpatient,30,44,0.6,No,4.8,Home,Yes,1557.88
+ENC100644,2025-06-25,Emergency,Emergency,22,71,3.7,No,3.7,Home,No,5358.45
+ENC100276,2025-06-26,Orthopedics,Inpatient,28,39,41.5,No,4.2,Home Health,Yes,16828.17
+ENC100282,2025-06-27,General Medicine,Observation,55,20,64.6,No,4.0,Home,Yes,2482.52
+ENC100729,2025-06-28,General Medicine,Outpatient,80,11,6.2,No,4.6,Home,Yes,566.55
+ENC100444,2025-06-28,Neurology,Inpatient,20,19,43.0,No,3.2,Home,Yes,10566.72
+ENC100651,2025-06-28,Cardiology,Inpatient,45,35,54.6,No,3.6,Transferred,Yes,15413.52
+ENC100235,2025-06-29,Orthopedics,Emergency,79,33,5.8,No,3.2,Skilled Nursing Facility,Yes,5271.28
+ENC100718,2025-06-29,Cardiology,Emergency,86,75,2.6,No,3.6,Home,No,5394.69
+ENC100284,2025-06-29,Neurology,Outpatient,38,37,4.0,No,2.8,Home Health,Yes,2951.25
+ENC100563,2025-06-29,Emergency,Inpatient,43,45,20.4,No,4.5,Skilled Nursing Facility,Yes,13311.9
+ENC100252,2025-06-30,General Medicine,Outpatient,78,30,4.4,No,5.0,Home,Yes,3565.31
+ENC100185,2025-06-30,Orthopedics,Observation,31,52,74.5,No,4.6,Home,No,518.64
+ENC100203,2025-06-30,Neurology,Outpatient,70,44,3.8,Yes,4.1,Home,Yes,2984.8
+ENC100055,2025-07-01,General Medicine,Emergency,19,59,6.6,No,4.2,Home,No,3449.02
+ENC100183,2025-07-01,Orthopedics,Outpatient,68,7,4.5,No,5.0,Home,Yes,588.78
+ENC100021,2025-07-02,Orthopedics,Inpatient,48,40,101.2,No,4.5,Home,Yes,26526.89
+ENC100453,2025-07-02,Emergency,Outpatient,42,82,3.8,Yes,3.5,Home Health,No,2756.08
+ENC100406,2025-07-02,Cardiology,Inpatient,31,20,43.9,No,3.9,Against Medical Advice,Yes,24528.49
+ENC100180,2025-07-02,Emergency,Outpatient,71,54,1.5,No,3.8,Against Medical Advice,No,1880.03
+ENC100405,2025-07-02,General Medicine,Inpatient,34,62,34.8,No,4.5,Home,No,15029.44
+ENC100667,2025-07-03,General Medicine,Inpatient,51,48,37.7,Yes,5.0,Home,No,11626.99
+ENC100420,2025-07-04,Emergency,Inpatient,66,89,39.0,No,3.9,Home,No,15668.02
+ENC100159,2025-07-04,General Medicine,Outpatient,32,62,4.8,Yes,3.7,Transferred,No,2148.17
+ENC100556,2025-07-04,Cardiology,Outpatient,73,14,3.2,No,3.8,Home,Yes,994.25
+ENC100115,2025-07-04,Neurology,Emergency,63,48,6.2,No,4.1,Home,No,250.0
+ENC100629,2025-07-04,Emergency,Outpatient,29,23,10.5,No,3.8,Home,Yes,1320.96
+ENC100445,2025-07-05,Cardiology,Inpatient,58,67,103.6,No,4.5,Home,No,18377.69
+ENC100608,2025-07-07,General Medicine,Outpatient,36,5,0.7,No,4.4,Against Medical Advice,Yes,1478.67
+ENC100017,2025-07-07,Emergency,Outpatient,66,56,2.2,No,5.0,Home Health,No,1764.58
+ENC100344,2025-07-07,General Medicine,Outpatient,50,54,2.2,No,3.5,Home,No,2072.58
+ENC100717,2025-07-08,General Medicine,Outpatient,75,70,2.0,No,4.0,Skilled Nursing Facility,No,250.0
+ENC100549,2025-07-08,Neurology,Emergency,20,35,1.8,No,4.9,Home,Yes,2143.12
+ENC100701,2025-07-09,Cardiology,Emergency,79,27,2.9,No,3.2,Home,Yes,3466.83
+ENC100366,2025-07-09,Emergency,Emergency,52,37,6.7,No,4.6,Transferred,Yes,2902.38
+ENC100296,2025-07-10,Emergency,Outpatient,18,100,0.5,No,4.6,Home,No,490.32
+ENC100712,2025-07-10,General Medicine,Emergency,42,76,5.8,No,4.5,Home,No,5516.21
+ENC100679,2025-07-10,Emergency,Outpatient,73,39,7.2,Yes,5.0,Against Medical Advice,Yes,2548.4
+ENC100449,2025-07-10,General Medicine,Outpatient,86,44,4.2,No,4.4,Skilled Nursing Facility,Yes,1986.61
+ENC100578,2025-07-11,Cardiology,Inpatient,48,29,38.4,No,4.9,Home Health,Yes,27092.25
+ENC100011,2025-07-12,Surgery,Inpatient,30,54,85.0,No,4.0,Skilled Nursing Facility,No,16423.53
+ENC100488,2025-07-13,General Medicine,Outpatient,25,33,1.2,No,3.8,Home,Yes,1725.4
+ENC100507,2025-07-13,Neurology,Outpatient,41,46,0.7,No,4.1,Home,No,1165.07
+ENC100656,2025-07-14,Neurology,Emergency,82,70,4.9,No,4.2,Home,No,3364.79
+ENC100747,2025-07-14,Emergency,Inpatient,41,88,76.3,Yes,5.0,Home,No,13519.39
+ENC100351,2025-07-14,Emergency,Inpatient,24,22,37.3,No,3.9,Home,Yes,12228.33
+ENC100561,2025-07-15,Emergency,Emergency,55,42,2.9,No,4.0,Home,Yes,6557.06
+ENC100606,2025-07-15,Surgery,Observation,77,40,62.7,No,3.8,Home,Yes,2404.59
+ENC100648,2025-07-15,Surgery,Outpatient,36,26,7.3,No,3.8,Against Medical Advice,Yes,2538.38
+ENC100539,2025-07-17,Surgery,Emergency,73,87,4.5,Yes,3.7,Skilled Nursing Facility,No,3454.34
+ENC100289,2025-07-17,Emergency,Observation,40,84,25.7,No,5.0,Home,No,1565.63
+ENC100295,2025-07-18,Orthopedics,Observation,47,60,81.2,Yes,4.7,Home Health,No,1621.0
+ENC100305,2025-07-18,Cardiology,Inpatient,18,62,42.0,No,4.0,Against Medical Advice,No,7197.71
+ENC100057,2025-07-19,General Medicine,Emergency,25,45,10.4,No,3.5,Skilled Nursing Facility,Yes,6536.94
+ENC100229,2025-07-19,General Medicine,Inpatient,57,38,72.0,Yes,4.0,Home,Yes,15200.52
+ENC100331,2025-07-19,Neurology,Emergency,83,61,1.4,No,3.7,Skilled Nursing Facility,No,3778.91
+ENC100029,2025-07-19,Emergency,Emergency,88,100,7.0,No,4.6,Home,No,5809.24
+ENC100655,2025-07-21,Orthopedics,Inpatient,36,22,28.3,No,4.1,Home,Yes,17011.74
+ENC100132,2025-07-22,Cardiology,Outpatient,34,7,7.0,Yes,3.7,Home,Yes,2017.72
+ENC100034,2025-07-22,Emergency,Inpatient,72,88,33.2,Yes,4.4,Transferred,No,13621.8
+ENC100308,2025-07-22,Emergency,Emergency,56,63,7.0,No,4.3,Home,No,2471.27
+ENC100456,2025-07-22,Neurology,Observation,76,26,21.5,No,4.2,Home Health,Yes,1291.96
+ENC100113,2025-07-22,Emergency,Inpatient,35,83,12.6,No,4.4,Home,No,17655.5
+ENC100330,2025-07-22,Cardiology,Inpatient,72,27,105.4,No,4.6,Home,Yes,22762.96
+ENC100158,2025-07-23,Cardiology,Inpatient,87,44,112.7,No,4.1,Home,Yes,11207.97
+ENC100134,2025-07-24,Orthopedics,Inpatient,50,37,93.0,Yes,3.9,Home,Yes,12771.25
+ENC100079,2025-07-26,Emergency,Outpatient,67,45,4.4,Yes,5.0,Transferred,Yes,250.0
+ENC100126,2025-07-26,General Medicine,Emergency,61,48,1.0,No,5.0,Home,No,3167.13
+ENC100706,2025-07-26,Cardiology,Inpatient,22,39,77.3,No,4.9,Home,Yes,22588.16
+ENC100131,2025-07-26,General Medicine,Outpatient,80,20,5.5,No,3.2,Skilled Nursing Facility,Yes,1604.61
+ENC100437,2025-07-27,Emergency,Outpatient,37,49,8.2,No,4.3,Home,No,403.57
+ENC100116,2025-07-27,General Medicine,Outpatient,73,45,5.8,No,3.9,Home,Yes,2261.39
+ENC100708,2025-07-28,Surgery,Inpatient,20,38,59.1,No,4.2,Home,Yes,17046.22
+ENC100570,2025-07-28,Orthopedics,Outpatient,21,53,0.7,Yes,4.5,Home,No,2126.53
+ENC100288,2025-07-28,Emergency,Outpatient,62,73,0.9,No,4.9,Home,No,2380.29
+ENC100129,2025-07-29,Orthopedics,Outpatient,30,41,4.1,No,3.0,Home,Yes,1373.07
+ENC100535,2025-07-30,Cardiology,Emergency,26,37,1.2,No,4.8,Home,Yes,2112.02
+ENC100597,2025-07-31,Emergency,Emergency,21,67,4.5,No,4.2,Home,No,5512.23
+ENC100228,2025-07-31,Surgery,Inpatient,89,26,15.8,No,4.2,Home,Yes,11906.32
+ENC100677,2025-07-31,Emergency,Outpatient,36,30,4.9,No,4.0,Home,Yes,1768.2
+ENC100424,2025-08-01,General Medicine,Inpatient,43,42,16.4,No,4.8,Home Health,Yes,14672.74
+ENC100266,2025-08-01,General Medicine,Observation,28,23,89.8,No,4.8,Home Health,Yes,1579.73
+ENC100242,2025-08-02,General Medicine,Emergency,72,49,2.5,No,3.2,Home,No,3879.48
+ENC100260,2025-08-03,Emergency,Observation,26,18,100.2,No,3.8,Home,Yes,2124.94
+ENC100270,2025-08-04,Neurology,Outpatient,67,38,3.7,No,4.0,Home,Yes,2198.97
+ENC100698,2025-08-04,Orthopedics,Inpatient,31,40,9.6,No,3.4,Transferred,Yes,8800.67
+ENC100548,2025-08-04,Neurology,Outpatient,73,29,2.8,Yes,3.6,Home,Yes,4226.18
+ENC100520,2025-08-05,General Medicine,Emergency,54,16,4.7,No,4.0,Home Health,Yes,1466.9
+ENC100688,2025-08-05,Cardiology,Outpatient,86,41,2.1,No,2.9,Home,Yes,2286.42
+ENC100455,2025-08-06,Cardiology,Observation,39,38,50.7,No,4.9,Home,Yes,4540.79
+ENC100468,2025-08-06,Orthopedics,Observation,42,33,102.4,No,4.4,Home,Yes,829.8
+ENC100665,2025-08-07,Emergency,Emergency,53,34,2.0,No,5.0,Home Health,Yes,3452.93
+ENC100531,2025-08-07,General Medicine,Inpatient,52,15,59.4,No,3.5,Transferred,Yes,13847.9
+ENC100720,2025-08-07,Neurology,Emergency,71,56,3.8,No,2.9,Home,No,7025.99
+ENC100394,2025-08-07,Emergency,Emergency,50,70,4.5,No,5.0,Transferred,No,2337.42
+ENC100494,2025-08-09,Emergency,Observation,20,49,63.2,No,4.5,Home,No,1741.22
+ENC100137,2025-08-09,General Medicine,Inpatient,23,93,11.6,No,4.1,Home,No,16717.88
+ENC100625,2025-08-09,Cardiology,Inpatient,39,38,14.1,No,4.9,Home,Yes,11719.89
+ENC100490,2025-08-10,Emergency,Outpatient,35,18,2.1,No,4.5,Home,Yes,769.95
+ENC100193,2025-08-10,Emergency,Emergency,84,23,2.3,Yes,4.9,Home Health,Yes,3161.61
+ENC100269,2025-08-12,Emergency,Emergency,31,69,2.3,No,3.2,Home,No,6420.06
+ENC100323,2025-08-13,Neurology,Inpatient,78,34,99.5,No,5.0,Skilled Nursing Facility,Yes,10164.03
+ENC100672,2025-08-13,Emergency,Outpatient,89,42,3.6,No,4.8,Against Medical Advice,Yes,1042.51
+ENC100702,2025-08-13,Neurology,Inpatient,36,10,61.0,No,4.5,Home,Yes,20565.3
+ENC100601,2025-08-13,Neurology,Emergency,61,33,3.3,No,5.0,Transferred,Yes,1166.74
+ENC100343,2025-08-15,Emergency,Emergency,44,50,2.6,No,3.2,Home,No,5668.21
+ENC100675,2025-08-15,Cardiology,Outpatient,40,40,1.1,No,3.9,Home Health,Yes,2402.78
+ENC100240,2025-08-17,Cardiology,Inpatient,52,35,187.4,No,3.3,Home Health,Yes,10182.39
+ENC100085,2025-08-18,Neurology,Inpatient,28,47,19.9,No,3.6,Transferred,No,10800.45
+ENC100599,2025-08-18,Surgery,Outpatient,73,49,5.4,No,5.0,Home,No,1693.15
+ENC100245,2025-08-18,Emergency,Inpatient,54,72,31.3,No,3.6,Home Health,No,16966.61
+ENC100040,2025-08-19,Emergency,Emergency,40,50,4.2,No,3.8,Home,No,3608.21
+ENC100192,2025-08-19,General Medicine,Outpatient,40,52,5.1,Yes,4.9,Against Medical Advice,No,539.05
+ENC100743,2025-08-20,General Medicine,Emergency,68,38,4.6,No,4.2,Skilled Nursing Facility,Yes,2791.76
+ENC100341,2025-08-20,Emergency,Outpatient,71,66,1.8,No,4.1,Home,No,2659.06
+ENC100458,2025-08-20,Orthopedics,Inpatient,85,19,20.4,No,4.0,Home Health,Yes,19043.68
+ENC100130,2025-08-20,Orthopedics,Emergency,21,58,3.0,No,3.7,Home,No,4989.93
+ENC100475,2025-08-20,Surgery,Emergency,74,33,7.3,No,4.0,Home,Yes,2972.77
+ENC100658,2025-08-20,Orthopedics,Emergency,31,41,1.8,Yes,4.1,Home,Yes,6257.54
+ENC100673,2025-08-21,General Medicine,Inpatient,73,17,36.1,No,4.1,Transferred,Yes,14013.62
+ENC100099,2025-08-21,Emergency,Outpatient,71,46,1.1,No,3.8,Home,No,718.94
+ENC100616,2025-08-22,Neurology,Emergency,78,27,6.6,No,4.4,Against Medical Advice,Yes,6191.77
+ENC100600,2025-08-23,Cardiology,Inpatient,43,25,133.7,No,3.6,Transferred,Yes,7341.21
+ENC100569,2025-08-23,Orthopedics,Outpatient,79,55,6.1,Yes,3.3,Home,No,1650.25
+ENC100026,2025-08-24,Cardiology,Emergency,31,43,0.9,No,3.8,Skilled Nursing Facility,Yes,2229.53
+ENC100244,2025-08-26,Emergency,Emergency,38,71,0.9,No,5.0,Home Health,No,4013.95
+ENC100502,2025-08-26,Orthopedics,Inpatient,45,16,46.1,No,3.3,Skilled Nursing Facility,Yes,12678.51
+ENC100123,2025-08-27,Neurology,Emergency,80,61,9.5,No,4.9,Home,No,3471.6
+ENC100003,2025-08-27,Orthopedics,Outpatient,87,40,3.4,No,5.0,Home,Yes,641.08
+ENC100652,2025-08-27,Surgery,Outpatient,26,67,4.6,No,3.9,Home,No,2325.64
+ENC100316,2025-08-29,Cardiology,Emergency,42,26,1.9,No,3.9,Home,Yes,3402.96
+ENC100730,2025-08-29,Emergency,Outpatient,56,50,6.0,No,4.2,Transferred,No,1250.67
+ENC100156,2025-08-30,General Medicine,Inpatient,72,5,38.7,No,3.4,Skilled Nursing Facility,Yes,12081.52
+ENC100255,2025-08-30,General Medicine,Inpatient,75,30,55.3,No,4.5,Home,Yes,8209.56
+ENC100446,2025-08-30,Emergency,Inpatient,53,53,67.1,Yes,4.8,Skilled Nursing Facility,No,2159.6
+ENC100372,2025-08-30,Cardiology,Outpatient,86,51,1.9,No,4.4,Skilled Nursing Facility,No,1163.84
+ENC100479,2025-08-31,Surgery,Outpatient,43,5,1.9,No,3.6,Home,Yes,1078.34
+ENC100162,2025-08-31,Orthopedics,Inpatient,87,18,39.0,No,3.7,Transferred,Yes,17355.43
+ENC100237,2025-08-31,General Medicine,Inpatient,40,18,52.1,No,4.0,Against Medical Advice,Yes,3720.26
+ENC100108,2025-08-31,Neurology,Emergency,19,38,6.6,No,3.7,Home,Yes,2187.32
+ENC100122,2025-09-01,Orthopedics,Outpatient,25,63,1.4,No,5.0,Home,No,702.25
+ENC100311,2025-09-01,Cardiology,Observation,28,26,63.9,Yes,5.0,Against Medical Advice,Yes,250.0
+ENC100736,2025-09-02,Emergency,Outpatient,44,5,10.0,No,4.3,Home,Yes,578.08
+ENC100080,2025-09-02,Emergency,Emergency,28,16,6.1,No,4.8,Home,Yes,2096.57
+ENC100641,2025-09-02,Emergency,Emergency,31,53,0.8,No,4.1,Skilled Nursing Facility,No,3884.79
+ENC100283,2025-09-02,Cardiology,Emergency,37,42,1.8,No,3.6,Home,Yes,4088.74
+ENC100312,2025-09-03,Orthopedics,Emergency,19,72,1.3,No,4.8,Home,No,3685.13
+ENC100711,2025-09-05,General Medicine,Emergency,25,28,1.6,No,5.0,Home Health,Yes,5920.5
+ENC100049,2025-09-05,Emergency,Outpatient,18,55,5.5,No,3.8,Home,No,2358.32
+ENC100416,2025-09-05,Emergency,Outpatient,66,42,0.8,No,4.1,Home,Yes,2153.1
+ENC100257,2025-09-05,General Medicine,Emergency,36,58,7.2,No,3.0,Home,No,4372.45
+ENC100550,2025-09-06,Emergency,Outpatient,24,71,3.2,No,4.6,Home,No,2204.79
+ENC100060,2025-09-07,Emergency,Emergency,61,67,5.3,No,4.3,Home,No,5752.71
+ENC100098,2025-09-07,Emergency,Observation,43,41,59.8,No,4.4,Home,Yes,2813.79
+ENC100191,2025-09-07,General Medicine,Outpatient,57,5,10.9,No,2.1,Home,Yes,1412.71
+ENC100075,2025-09-08,Neurology,Outpatient,60,41,0.6,No,3.9,Home,Yes,2213.77
+ENC100636,2025-09-08,General Medicine,Inpatient,69,36,118.3,No,4.4,Home,Yes,15251.16
+ENC100615,2025-09-08,General Medicine,Outpatient,59,38,2.7,Yes,3.2,Home,Yes,2521.95
+ENC100587,2025-09-09,Orthopedics,Inpatient,72,38,24.2,No,3.4,Home,Yes,18164.84
+ENC100666,2025-09-11,Emergency,Outpatient,49,31,2.5,Yes,4.6,Home,Yes,2235.07
+ENC100422,2025-09-11,Emergency,Emergency,36,42,2.3,No,4.3,Home,Yes,4534.1
+ENC100008,2025-09-12,General Medicine,Emergency,57,47,3.9,Yes,3.9,Against Medical Advice,No,1451.95
+ENC100184,2025-09-12,Neurology,Emergency,70,28,3.3,No,3.6,Skilled Nursing Facility,Yes,3261.22
+ENC100175,2025-09-12,Orthopedics,Inpatient,63,31,46.2,No,4.7,Against Medical Advice,Yes,25584.74
+ENC100043,2025-09-13,General Medicine,Inpatient,36,10,63.8,Yes,3.6,Home,Yes,24169.3
+ENC100086,2025-09-13,Neurology,Outpatient,70,45,7.9,No,5.0,Against Medical Advice,Yes,3902.4
+ENC100204,2025-09-13,General Medicine,Inpatient,51,24,95.4,No,3.3,Skilled Nursing Facility,Yes,16077.57
+ENC100223,2025-09-14,Neurology,Inpatient,26,69,67.3,No,3.0,Home,No,11371.53
+ENC100110,2025-09-15,Emergency,Emergency,49,61,3.1,No,4.1,Home,No,2137.31
+ENC100541,2025-09-16,Surgery,Outpatient,22,21,2.4,No,3.4,Home,Yes,734.86
+ENC100430,2025-09-19,Emergency,Emergency,51,55,3.6,No,3.7,Home,No,3274.32
+ENC100177,2025-09-19,Emergency,Outpatient,54,66,3.4,No,4.4,Home,No,1403.93
+ENC100015,2025-09-19,General Medicine,Outpatient,47,21,6.2,Yes,3.3,Home,Yes,1496.44
+ENC100212,2025-09-19,Emergency,Emergency,79,88,2.1,No,4.8,Home,No,4956.87
+ENC100395,2025-09-20,Neurology,Emergency,27,6,4.4,No,4.4,Home,Yes,5575.87
+ENC100236,2025-09-20,Neurology,Outpatient,42,19,2.2,No,4.7,Home,Yes,3157.27
+ENC100225,2025-09-21,Neurology,Emergency,24,40,4.6,No,4.6,Against Medical Advice,Yes,4073.75
+ENC100727,2025-09-21,Cardiology,Observation,85,54,23.9,No,4.8,Home,No,2160.27
+ENC100174,2025-09-21,General Medicine,Outpatient,48,70,7.6,No,4.2,Home,No,1789.28
+ENC100697,2025-09-21,Neurology,Inpatient,40,58,48.9,No,4.2,Home Health,No,3546.76
+ENC100461,2025-09-22,Neurology,Observation,28,18,57.9,No,3.9,Transferred,Yes,2065.11
+ENC100676,2025-09-22,General Medicine,Outpatient,80,5,3.2,No,5.0,Home,Yes,2161.58
+ENC100681,2025-09-22,General Medicine,Outpatient,84,44,1.4,No,3.8,Home,Yes,2775.77
+ENC100713,2025-09-23,General Medicine,Inpatient,60,38,15.3,No,4.5,Home Health,Yes,8186.87
+ENC100318,2025-09-23,Emergency,Emergency,48,85,11.1,No,2.9,Home,No,3010.06
+ENC100737,2025-09-24,Orthopedics,Observation,57,5,59.6,Yes,3.2,Home,Yes,389.65
+ENC100731,2025-09-24,General Medicine,Observation,51,23,34.0,No,3.2,Skilled Nursing Facility,Yes,3768.28
+ENC100317,2025-09-24,Surgery,Emergency,79,38,2.2,No,5.0,Against Medical Advice,Yes,4117.41
+ENC100377,2025-09-26,Cardiology,Observation,21,22,20.2,No,3.8,Home,Yes,1580.19
+ENC100557,2025-09-26,Cardiology,Outpatient,71,51,10.0,No,3.5,Home,No,770.04
+ENC100013,2025-09-26,Surgery,Inpatient,59,64,51.6,No,4.0,Home Health,No,13434.72
+ENC100662,2025-09-26,Cardiology,Inpatient,60,51,90.7,No,3.9,Home,No,23652.64
+ENC100215,2025-09-26,Emergency,Inpatient,32,78,24.9,No,4.0,Transferred,No,25959.79
+ENC100631,2025-09-26,Orthopedics,Outpatient,85,20,5.3,No,3.7,Home,Yes,1547.48
+ENC100739,2025-09-27,Surgery,Inpatient,65,30,17.2,No,4.5,Home,Yes,8914.38
+ENC100471,2025-09-27,Surgery,Outpatient,26,52,2.6,No,3.6,Transferred,No,1017.12
+ENC100603,2025-09-27,Orthopedics,Outpatient,57,55,4.4,No,4.1,Home,No,1827.48
+ENC100432,2025-09-27,General Medicine,Observation,44,18,60.9,No,4.1,Home,Yes,250.0
+ENC100062,2025-09-29,Emergency,Inpatient,50,40,74.4,No,4.1,Home Health,Yes,12564.2
+ENC100059,2025-09-29,General Medicine,Emergency,55,60,5.8,No,3.8,Home,No,1769.01
+ENC100378,2025-09-30,Cardiology,Inpatient,24,19,26.3,No,3.3,Home,Yes,9451.42
+ENC100391,2025-09-30,Emergency,Inpatient,70,39,69.1,No,4.3,Home Health,Yes,15051.84
+ENC100512,2025-09-30,Orthopedics,Inpatient,32,52,55.2,No,5.0,Home,No,15265.76
+ENC100463,2025-10-01,Surgery,Outpatient,47,31,3.7,No,4.5,Home,Yes,1945.5
+ENC100360,2025-10-01,Emergency,Outpatient,41,86,1.9,No,4.4,Home,No,1543.23
+ENC100493,2025-10-02,General Medicine,Outpatient,77,37,2.7,No,3.8,Transferred,Yes,894.89
+ENC100234,2025-10-04,General Medicine,Outpatient,66,40,12.3,No,3.9,Home,Yes,250.0
+ENC100042,2025-10-04,Emergency,Outpatient,30,40,1.1,No,4.7,Home,Yes,263.73
+ENC100247,2025-10-04,Orthopedics,Observation,19,30,133.0,Yes,3.6,Skilled Nursing Facility,Yes,1811.87
+ENC100051,2025-10-05,General Medicine,Outpatient,84,17,1.4,Yes,4.6,Home Health,Yes,1270.58
+ENC100014,2025-10-05,Emergency,Emergency,63,92,1.7,Yes,4.4,Home,No,607.56
+ENC100742,2025-10-06,Emergency,Observation,32,81,42.7,Yes,4.1,Home,No,1193.22
+ENC100207,2025-10-06,Neurology,Inpatient,55,44,54.6,Yes,3.9,Home,Yes,15810.95
+ENC100714,2025-10-06,Orthopedics,Outpatient,65,5,7.5,No,4.5,Home,Yes,1717.49
+ENC100128,2025-10-07,Surgery,Emergency,35,67,7.1,No,3.4,Skilled Nursing Facility,No,4533.52
+ENC100657,2025-10-07,General Medicine,Outpatient,36,37,0.5,No,3.8,Home,Yes,2395.99
+ENC100423,2025-10-07,Emergency,Outpatient,54,87,0.7,No,4.9,Home Health,No,1119.5
+ENC100489,2025-10-07,Neurology,Inpatient,72,64,17.2,No,5.0,Home,No,10381.97
+ENC100089,2025-10-08,Cardiology,Inpatient,87,57,61.2,No,3.9,Home,No,15864.07
+ENC100320,2025-10-08,Surgery,Emergency,25,5,4.5,No,4.4,Skilled Nursing Facility,Yes,6363.65
+ENC100173,2025-10-09,Emergency,Emergency,52,54,3.4,No,3.9,Home Health,No,5828.51
+ENC100645,2025-10-09,Orthopedics,Outpatient,54,25,3.4,No,3.7,Home,Yes,1521.69
+ENC100370,2025-10-09,Orthopedics,Inpatient,21,47,56.3,No,4.2,Home Health,No,11108.5
+ENC100734,2025-10-10,Surgery,Emergency,22,59,3.5,No,4.0,Home,No,4541.99
+ENC100002,2025-10-10,Surgery,Inpatient,75,34,39.9,Yes,2.9,Skilled Nursing Facility,Yes,13830.41
+ENC100402,2025-10-11,Neurology,Inpatient,56,66,97.2,No,4.1,Home,No,10260.24
+ENC100050,2025-10-12,Neurology,Inpatient,21,61,103.2,No,3.9,Home Health,No,11427.35
+ENC100112,2025-10-12,Orthopedics,Emergency,64,44,1.4,No,3.2,Home,Yes,9110.1
+ENC100107,2025-10-12,Emergency,Outpatient,43,95,2.8,No,3.9,Home,No,1565.16
+ENC100210,2025-10-12,Surgery,Observation,33,27,57.5,No,4.2,Home,Yes,2307.18
+ENC100602,2025-10-12,Orthopedics,Inpatient,58,57,104.7,Yes,3.4,Home,No,2735.47
+ENC100598,2025-10-12,Emergency,Outpatient,28,51,6.5,No,3.9,Skilled Nursing Facility,No,1617.88
+ENC100025,2025-10-13,Orthopedics,Observation,48,16,154.3,No,3.2,Home Health,Yes,2387.9
+ENC100690,2025-10-13,Cardiology,Outpatient,40,31,5.0,No,3.9,Home,Yes,2553.9
+ENC100278,2025-10-13,General Medicine,Observation,49,42,69.2,No,3.8,Home,Yes,3591.62
+ENC100613,2025-10-14,Emergency,Emergency,53,48,3.4,No,4.5,Home,No,3686.94
+ENC100725,2025-10-14,Emergency,Outpatient,79,42,7.2,No,4.2,Home,Yes,3233.44
+ENC100476,2025-10-14,Emergency,Observation,30,63,70.2,No,3.8,Against Medical Advice,No,2174.38
+ENC100160,2025-10-14,Emergency,Observation,83,87,46.9,No,4.1,Skilled Nursing Facility,No,250.0
+ENC100016,2025-10-14,Neurology,Inpatient,47,38,45.4,No,3.0,Skilled Nursing Facility,Yes,13408.91
+ENC100213,2025-10-15,Cardiology,Outpatient,65,5,0.7,No,4.0,Home Health,Yes,311.34
+ENC100249,2025-10-15,Orthopedics,Outpatient,70,53,2.4,No,3.4,Home,No,1237.5
+ENC100106,2025-10-15,Orthopedics,Emergency,69,28,1.7,No,5.0,Home,Yes,4382.19
+ENC100639,2025-10-17,Surgery,Emergency,42,62,6.1,No,4.0,Transferred,No,2350.09
+ENC100261,2025-10-17,Emergency,Emergency,43,31,5.2,No,3.9,Home,Yes,5047.54
+ENC100559,2025-10-17,General Medicine,Inpatient,75,53,27.6,No,3.1,Home,No,14550.66
+ENC100692,2025-10-18,Orthopedics,Outpatient,43,46,4.1,No,4.5,Home,No,1284.33
+ENC100135,2025-10-18,Emergency,Observation,29,46,83.9,No,4.3,Home,No,322.93
+ENC100745,2025-10-18,Surgery,Outpatient,40,35,16.4,No,3.1,Home,Yes,1945.81
+ENC100484,2025-10-18,Cardiology,Inpatient,37,24,31.3,No,4.6,Home,Yes,7984.16
+ENC100071,2025-10-18,General Medicine,Emergency,27,46,2.5,No,5.0,Home,No,7594.0
+ENC100105,2025-10-18,Orthopedics,Emergency,52,45,1.6,No,3.9,Home,Yes,6787.04
+ENC100716,2025-10-19,Cardiology,Emergency,24,77,2.3,No,3.5,Against Medical Advice,No,3894.55
+ENC100596,2025-10-20,Cardiology,Emergency,54,52,2.2,No,4.0,Skilled Nursing Facility,No,2096.44
+ENC100591,2025-10-20,Orthopedics,Outpatient,21,68,5.7,No,4.7,Home,No,2040.11
+ENC100686,2025-10-20,Surgery,Emergency,84,44,2.6,No,4.1,Home,Yes,6603.15
+ENC100654,2025-10-21,General Medicine,Inpatient,85,43,63.6,No,5.0,Home,Yes,20869.25
+ENC100428,2025-10-21,Surgery,Inpatient,69,67,29.2,No,4.0,Home,No,17002.83
+ENC100472,2025-10-21,Orthopedics,Emergency,55,67,6.6,No,3.8,Home,No,1320.12
+ENC100103,2025-10-21,Neurology,Inpatient,25,5,28.6,No,4.7,Home,Yes,15733.87
+ENC100092,2025-10-21,General Medicine,Inpatient,53,61,31.9,No,3.9,Skilled Nursing Facility,No,12871.2
+ENC100551,2025-10-21,Cardiology,Observation,37,46,79.2,No,3.6,Home,No,1110.33
+ENC100291,2025-10-22,General Medicine,Outpatient,41,54,2.2,No,5.0,Home,No,2011.6
+ENC100227,2025-10-23,General Medicine,Outpatient,64,80,2.9,No,4.0,Home,No,1091.01
+ENC100336,2025-10-23,Surgery,Outpatient,63,59,2.7,No,4.1,Home Health,No,864.65
+ENC100166,2025-10-25,Surgery,Inpatient,23,68,37.2,Yes,4.8,Home,No,14546.02
+ENC100514,2025-10-26,Emergency,Emergency,72,33,5.0,No,4.0,Skilled Nursing Facility,Yes,1376.69
+ENC100741,2025-10-26,Emergency,Outpatient,31,89,4.9,No,3.6,Home,No,1393.89
+ENC100149,2025-10-27,Neurology,Outpatient,39,68,13.1,Yes,4.8,Skilled Nursing Facility,No,250.0
+ENC100028,2025-10-28,General Medicine,Emergency,79,50,2.2,No,3.0,Home Health,No,5303.57
+ENC100524,2025-10-29,Emergency,Observation,40,60,84.3,Yes,4.3,Home,No,1608.05
+ENC100433,2025-10-29,Emergency,Inpatient,25,55,39.6,No,3.4,Home,No,4584.97
+ENC100302,2025-10-29,Surgery,Emergency,46,43,1.6,No,4.0,Home,Yes,3665.11
+ENC100605,2025-10-29,Emergency,Inpatient,52,39,99.1,No,4.8,Home,Yes,14335.21
+ENC100038,2025-10-30,Emergency,Outpatient,19,54,0.6,No,3.4,Home Health,No,1718.39
+ENC100334,2025-10-30,Orthopedics,Observation,74,41,52.0,Yes,4.3,Home,Yes,1196.02
+ENC100553,2025-10-30,General Medicine,Inpatient,27,6,66.9,No,3.9,Home,Yes,20916.12
+ENC100482,2025-10-30,General Medicine,Observation,84,34,18.7,No,4.4,Home,Yes,593.14
+ENC100084,2025-10-31,General Medicine,Emergency,65,44,5.0,No,5.0,Against Medical Advice,Yes,4573.33
+ENC100545,2025-10-31,Neurology,Outpatient,84,58,1.7,No,4.4,Home Health,No,1729.22
+ENC100101,2025-10-31,Cardiology,Observation,70,28,25.9,No,5.0,Home,Yes,250.0
+ENC100090,2025-10-31,Neurology,Inpatient,86,6,59.7,No,4.5,Skilled Nursing Facility,Yes,14930.85
+ENC100388,2025-10-31,Emergency,Outpatient,36,84,5.6,No,4.2,Skilled Nursing Facility,No,2339.57
+ENC100582,2025-11-01,General Medicine,Emergency,37,25,2.9,No,3.9,Skilled Nursing Facility,Yes,3717.41
+ENC100611,2025-11-01,Surgery,Outpatient,18,25,2.1,No,5.0,Home,Yes,2317.04
+ENC100589,2025-11-02,Emergency,Observation,71,44,84.2,No,3.2,Home,Yes,2531.97
+ENC100513,2025-11-03,Emergency,Observation,38,55,30.9,No,4.0,Home,No,2944.52
+ENC100459,2025-11-03,General Medicine,Emergency,34,34,2.8,No,4.2,Transferred,Yes,3511.12
+ENC100019,2025-11-03,General Medicine,Outpatient,76,25,3.2,No,4.0,Home,Yes,1552.79
+ENC100093,2025-11-04,Surgery,Outpatient,58,62,3.2,No,4.6,Home,No,4343.24
+ENC100590,2025-11-04,Surgery,Inpatient,54,29,42.0,No,4.4,Home,Yes,13695.08
+ENC100723,2025-11-05,General Medicine,Outpatient,53,13,2.2,No,4.1,Transferred,Yes,1839.17
+ENC100361,2025-11-05,General Medicine,Emergency,18,45,2.0,No,3.6,Skilled Nursing Facility,Yes,2534.71
+ENC100477,2025-11-06,Emergency,Emergency,50,87,2.7,Yes,3.9,Home,No,5534.86
+ENC100650,2025-11-06,General Medicine,Outpatient,65,58,8.3,Yes,2.9,Home,No,1564.62
+ENC100297,2025-11-07,Neurology,Inpatient,50,36,53.4,No,4.0,Home,Yes,9071.55
+ENC100560,2025-11-07,General Medicine,Emergency,61,55,5.0,Yes,3.9,Skilled Nursing Facility,No,6450.65
+ENC100643,2025-11-08,General Medicine,Emergency,18,50,6.8,No,4.2,Transferred,No,3989.26
+ENC100146,2025-11-08,General Medicine,Observation,84,19,21.5,No,4.5,Home,Yes,2318.42
+ENC100151,2025-11-09,Cardiology,Inpatient,55,51,53.7,No,4.6,Home Health,No,17836.26
+ENC100125,2025-11-09,Orthopedics,Observation,62,5,36.7,No,3.3,Home Health,Yes,2171.69
+ENC100232,2025-11-09,General Medicine,Inpatient,24,59,15.4,No,4.7,Home,No,19558.92
+ENC100610,2025-11-10,Emergency,Outpatient,87,28,5.8,No,4.5,Home,Yes,2708.98
+ENC100006,2025-11-10,Neurology,Observation,41,32,19.5,No,4.0,Home,Yes,2292.74
+ENC100037,2025-11-10,General Medicine,Outpatient,30,37,2.9,No,3.8,Home,Yes,1649.32
+ENC100668,2025-11-11,General Medicine,Emergency,29,69,3.1,Yes,5.0,Home,No,3871.75
+ENC100427,2025-11-12,Cardiology,Inpatient,39,65,46.5,No,4.7,Home,No,8642.26
+ENC100504,2025-11-13,Neurology,Emergency,42,62,3.3,No,4.2,Home,No,2467.74
+ENC100492,2025-11-13,General Medicine,Emergency,37,17,5.2,No,4.4,Skilled Nursing Facility,Yes,5493.56
+ENC100558,2025-11-16,Orthopedics,Outpatient,75,45,4.3,No,3.1,Home,Yes,2733.12
+ENC100396,2025-11-16,Cardiology,Inpatient,38,22,109.2,No,5.0,Skilled Nursing Facility,Yes,16171.55
+ENC100517,2025-11-18,Surgery,Emergency,43,40,5.9,No,5.0,Home,Yes,2332.16
+ENC100375,2025-11-20,General Medicine,Outpatient,74,37,4.0,No,4.2,Home,Yes,750.64
+ENC100035,2025-11-21,Surgery,Outpatient,88,20,1.7,No,3.3,Home,Yes,568.45
+ENC100565,2025-11-21,Emergency,Inpatient,72,45,37.3,No,4.5,Home,Yes,11873.06
+ENC100362,2025-11-22,Emergency,Observation,52,57,52.1,No,4.2,Home,No,1859.04
+ENC100389,2025-11-22,Emergency,Outpatient,81,62,2.3,No,4.5,Transferred,No,2295.88
+ENC100048,2025-11-22,Emergency,Emergency,22,41,4.2,Yes,4.1,Transferred,Yes,4070.0
+ENC100358,2025-11-22,Emergency,Outpatient,78,73,3.5,No,3.7,Home,No,2609.21
+ENC100579,2025-11-23,Emergency,Outpatient,21,65,3.5,No,5.0,Home,No,951.6
+ENC100364,2025-11-23,Orthopedics,Observation,88,72,10.7,No,4.9,Home,No,381.67
+ENC100095,2025-11-24,Orthopedics,Emergency,84,61,4.4,No,3.6,Home,No,2405.81
+ENC100304,2025-11-24,Emergency,Outpatient,76,66,8.3,No,5.0,Home,No,1454.71
+ENC100740,2025-11-24,Surgery,Outpatient,45,23,5.0,No,4.7,Home,Yes,3508.1
+ENC100179,2025-11-25,Surgery,Emergency,65,39,3.1,No,4.3,Home,Yes,5085.61
+ENC100592,2025-11-26,Surgery,Inpatient,48,36,59.0,No,3.8,Transferred,Yes,9724.73
+ENC100220,2025-11-26,Emergency,Observation,62,9,15.3,No,3.8,Home,Yes,2263.08
+ENC100067,2025-11-27,Emergency,Inpatient,50,68,34.2,No,4.4,Home,No,14502.92
+ENC100345,2025-11-27,Surgery,Emergency,87,37,4.7,No,3.6,Home,Yes,3903.01
+ENC100202,2025-11-28,Surgery,Inpatient,33,58,28.0,No,4.4,Home Health,No,19697.94
+ENC100642,2025-12-01,General Medicine,Observation,76,60,90.9,No,4.1,Home,No,1943.92
+ENC100529,2025-12-01,Orthopedics,Emergency,70,75,2.7,Yes,3.7,Home Health,No,3791.54
+ENC100324,2025-12-01,General Medicine,Outpatient,85,5,5.5,No,3.7,Home,Yes,1569.3
+ENC100153,2025-12-01,Surgery,Emergency,54,37,2.7,No,4.3,Home,Yes,5737.26
+ENC100715,2025-12-02,Orthopedics,Outpatient,50,45,1.3,No,3.2,Home,Yes,2724.96
+ENC100669,2025-12-02,General Medicine,Outpatient,69,39,7.5,Yes,4.5,Skilled Nursing Facility,Yes,1566.44
+ENC100061,2025-12-03,Emergency,Outpatient,34,8,4.2,No,2.9,Home,Yes,2288.2
+ENC100733,2025-12-03,Orthopedics,Inpatient,78,62,103.4,No,3.3,Home Health,No,15939.6
+ENC100530,2025-12-03,Surgery,Observation,78,13,27.3,No,4.6,Home,Yes,1104.12
+ENC100452,2025-12-04,Neurology,Outpatient,71,5,4.2,No,4.5,Home,Yes,1870.92
+ENC100577,2025-12-04,Cardiology,Observation,79,49,28.6,No,4.3,Against Medical Advice,No,3576.29
+ENC100586,2025-12-04,Neurology,Outpatient,48,40,3.1,No,2.6,Home,Yes,2036.62
+ENC100527,2025-12-04,Cardiology,Inpatient,22,20,56.5,No,4.2,Home,Yes,18628.85
+ENC100264,2025-12-04,General Medicine,Observation,53,14,18.9,No,3.2,Home,Yes,2909.84
+ENC100024,2025-12-05,Orthopedics,Inpatient,27,22,28.8,No,3.1,Home,Yes,8262.62
+ENC100499,2025-12-05,Cardiology,Emergency,83,46,0.8,No,4.2,Home,No,1429.71
+ENC100421,2025-12-05,Cardiology,Inpatient,44,24,121.7,No,3.5,Home,Yes,7853.39
+ENC100438,2025-12-05,Surgery,Observation,33,34,82.1,No,4.9,Home,Yes,1602.63
+ENC100693,2025-12-06,General Medicine,Inpatient,67,36,124.8,No,5.0,Home,Yes,15233.44
+ENC100722,2025-12-06,Emergency,Inpatient,81,60,14.3,No,3.9,Home,No,14365.51
+ENC100470,2025-12-07,Emergency,Outpatient,29,43,6.2,Yes,3.6,Home Health,Yes,1148.62
+ENC100491,2025-12-07,Surgery,Emergency,42,12,8.2,No,4.7,Home,Yes,5815.3
+ENC100680,2025-12-08,Cardiology,Outpatient,84,46,2.3,No,3.4,Home Health,No,2846.1
+ENC100348,2025-12-08,Emergency,Emergency,28,96,3.4,Yes,4.6,Home,No,5304.62
+ENC100409,2025-12-08,Neurology,Outpatient,32,55,10.0,No,4.7,Home,No,737.29
+ENC100382,2025-12-08,Cardiology,Outpatient,84,57,2.8,No,3.3,Skilled Nursing Facility,No,1314.67
+ENC100319,2025-12-09,Cardiology,Emergency,71,49,7.7,No,4.5,Home,No,5754.38
+ENC100286,2025-12-09,Cardiology,Outpatient,20,36,1.6,No,4.3,Transferred,Yes,1915.3
+ENC100181,2025-12-09,Emergency,Observation,69,51,69.7,Yes,5.0,Home,No,1693.97
+ENC100081,2025-12-10,Emergency,Emergency,82,81,4.3,Yes,3.7,Home,No,2187.45
+ENC100694,2025-12-12,Emergency,Inpatient,50,43,108.4,No,4.0,Transferred,Yes,12224.63
+ENC100383,2025-12-12,Surgery,Inpatient,70,36,70.4,No,4.2,Skilled Nursing Facility,Yes,14207.48
+ENC100571,2025-12-13,Cardiology,Inpatient,65,57,150.8,Yes,3.5,Home,No,10430.8
+ENC100640,2025-12-13,Cardiology,Emergency,61,40,4.4,No,3.9,Home,Yes,566.36
+ENC100340,2025-12-14,General Medicine,Outpatient,88,51,5.9,No,3.4,Home,No,1800.3
+ENC100671,2025-12-14,Cardiology,Inpatient,69,5,29.9,No,3.4,Home,Yes,24173.86
+ENC100293,2025-12-15,Surgery,Inpatient,72,53,97.6,No,5.0,Home,No,18620.71
+ENC100448,2025-12-15,Cardiology,Outpatient,26,28,4.4,No,4.0,Home,Yes,1681.43
+ENC100274,2025-12-16,General Medicine,Outpatient,38,50,0.8,No,4.6,Home,No,2036.15
+ENC100684,2025-12-16,Neurology,Inpatient,26,61,49.3,Yes,4.5,Home Health,No,18347.3
+ENC100451,2025-12-17,Emergency,Emergency,66,35,5.8,Yes,4.5,Transferred,Yes,3352.97
+ENC100683,2025-12-17,Emergency,Inpatient,82,71,58.2,No,3.3,Home,No,15622.92
+ENC100195,2025-12-17,Neurology,Outpatient,27,20,5.7,No,4.1,Home,Yes,1866.44
+ENC100515,2025-12-17,General Medicine,Outpatient,61,35,1.3,No,3.9,Home,Yes,1696.85
+ENC100649,2025-12-17,Neurology,Observation,23,54,23.3,No,4.3,Against Medical Advice,No,2697.11
+ENC100337,2025-12-18,General Medicine,Inpatient,37,21,40.6,No,4.6,Home,Yes,13255.16
+ENC100200,2025-12-18,General Medicine,Inpatient,30,50,25.8,No,5.0,Home,No,11275.9
+ENC100503,2025-12-18,Cardiology,Emergency,88,55,4.2,No,4.0,Home,No,8823.46
+ENC100466,2025-12-19,Emergency,Emergency,89,58,10.6,No,4.3,Skilled Nursing Facility,No,3289.9
+ENC100609,2025-12-19,Orthopedics,Emergency,66,44,4.5,No,3.7,Home,Yes,2001.73
+ENC100417,2025-12-20,Orthopedics,Emergency,51,38,5.6,No,4.9,Against Medical Advice,Yes,4334.58
+ENC100208,2025-12-20,Emergency,Inpatient,70,49,63.7,No,4.4,Skilled Nursing Facility,No,12664.1
+ENC100064,2025-12-20,General Medicine,Emergency,49,34,5.3,No,4.8,Home Health,Yes,6068.38
+ENC100355,2025-12-20,Orthopedics,Inpatient,23,46,59.0,No,3.8,Home,No,22683.71
+ENC100046,2025-12-21,General Medicine,Inpatient,37,26,44.6,No,5.0,Home,Yes,15600.28
+ENC100404,2025-12-21,General Medicine,Emergency,88,42,5.9,No,3.7,Home,Yes,6088.16
+ENC100441,2025-12-22,Surgery,Inpatient,48,50,77.7,No,4.0,Home,No,13875.92
+ENC100325,2025-12-22,Cardiology,Emergency,41,76,1.4,No,3.8,Transferred,No,4469.69
+ENC100012,2025-12-23,General Medicine,Inpatient,54,58,47.1,No,3.5,Against Medical Advice,No,8897.62
+ENC100594,2025-12-24,Neurology,Outpatient,36,28,15.1,No,3.8,Home,Yes,2886.37
+ENC100141,2025-12-25,Emergency,Outpatient,58,86,6.1,No,3.1,Skilled Nursing Facility,No,3497.12
+ENC100555,2025-12-26,General Medicine,Inpatient,66,60,67.5,Yes,4.2,Skilled Nursing Facility,No,21113.9
+ENC100347,2025-12-28,Orthopedics,Emergency,56,32,1.5,No,3.6,Home,Yes,2860.68
+ENC100265,2025-12-28,General Medicine,Emergency,38,24,2.4,No,4.0,Skilled Nursing Facility,Yes,3076.12
+ENC100356,2025-12-29,Cardiology,Inpatient,50,30,129.2,Yes,3.8,Transferred,Yes,18928.85
+ENC100145,2025-12-29,General Medicine,Inpatient,61,54,73.3,No,4.0,Home,No,10921.03
+ENC100511,2025-12-30,Cardiology,Inpatient,34,37,15.1,No,3.2,Home Health,Yes,7922.67
+ENC100691,2025-12-30,Surgery,Inpatient,41,22,85.7,No,4.4,Home,Yes,8135.83
+ENC100161,2025-12-30,Emergency,Observation,34,87,27.7,No,4.2,Home,No,2113.48
+ENC100401,2025-12-31,General Medicine,Emergency,41,27,4.3,No,5.0,Home,Yes,2183.67
