@@ -56,3 +56,23 @@ SELECT
     COUNT(*) AS encounter_count
 FROM healthcare_operations
 GROUP BY sla_met;
+
+
+-- 9. Average wait time by encounter type
+SELECT
+    encounter_type,
+    ROUND(AVG(wait_time_minutes), 2) AS avg_wait_minutes,
+    ROUND(AVG(length_of_stay_hours), 2) AS avg_length_of_stay
+FROM healthcare_operations
+GROUP BY encounter_type
+ORDER BY avg_wait_minutes DESC;
+
+-- 10. Monthly emergency encounter trends
+SELECT
+    strftime('%Y-%m', encounter_date) AS month,
+    COUNT(*) AS emergency_encounters,
+    ROUND(AVG(wait_time_minutes), 2) AS avg_wait_minutes
+FROM healthcare_operations
+WHERE encounter_type = 'Emergency'
+GROUP BY month
+ORDER BY month;
