@@ -76,3 +76,20 @@ FROM healthcare_operations
 WHERE encounter_type = 'Emergency'
 GROUP BY month
 ORDER BY month;
+
+SQL
+-- SLA compliance by department
+-- Project-defined benchmark: wait time of 45 minutes or less
+
+SELECT
+    department,
+    COUNT(*) AS total_encounters,
+    SUM(CASE WHEN wait_time_minutes <= 45 THEN 1 ELSE 0 END) AS within_sla,
+    SUM(CASE WHEN wait_time_minutes > 45 THEN 1 ELSE 0 END) AS missed_sla,
+    ROUND(
+        100.0 * SUM(CASE WHEN wait_time_minutes <= 45 THEN 1 ELSE 0 END) / COUNT(*),
+        2
+    ) AS sla_compliance_pct
+FROM healthcare_operations
+GROUP BY department
+ORDER BY sla_compliance_pct ASC;
