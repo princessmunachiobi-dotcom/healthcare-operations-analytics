@@ -42,7 +42,6 @@ This project demonstrates practical SQL skills including:
 - `COUNT()` and `AVG()` aggregate functions
 - `GROUP BY` and `ORDER BY`
 - Conditional aggregation using `CASE WHEN`
-- Common Table Expressions (CTEs)
 - Date aggregation and trend analysis
 - SLA performance calculations
 - Operational KPI analysis
@@ -63,7 +62,7 @@ The SQL analysis answers several operational questions:
 
 The SQL analysis identified several operational patterns within the simulated healthcare dataset:
 
-- **Neurology recorded the highest encounter volume**, with 178 encounters, indicating comparatively high utilization within the dataset.
+- **Emergency recorded the highest encounter volume**, with 178 encounters, indicating comparatively high utilization within the dataset.
 - **Emergency encounters experienced the longest average wait times**, at approximately 60 minutes.
 - Department-level analysis showed meaningful differences in wait-time performance and the percentage of encounters meeting the **45-minute SLA target**.
 - Emergency department performance varied across months, demonstrating the value of monitoring operational KPIs over time rather than relying only on overall averages.
@@ -96,11 +95,11 @@ Based on the analysis, healthcare operations leadership could:
 
 ## Repository Structure
 
-```text
 healthcare-operations-analytics/
 │
 ├── data/
-│   └── healthcare_operations_data.csv
+│   └── raw/
+│       └── healthcare_operations_data.csv
 │
 ├── sql/
 │   └── 01_data_exploration.sql
